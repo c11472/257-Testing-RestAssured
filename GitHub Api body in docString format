@@ -1,0 +1,11 @@
+
+To create the repository or delete the existing repository from github  as a user :
+
+
+String body = """
+	            {
+	              "name": "restassured-demo-repo1",
+	              "description": "Created using GitHub REST API",
+	              "private": false
+	            }
+	            """;
